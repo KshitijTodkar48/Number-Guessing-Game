@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik|Sofia|Londrina Shadow|Train One|Phudu">
+    
+    <title>Number-Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+       <div class="card">
+        <h1 class="header">Guess the number</h1>
+        <input placeholder="Enter a number between 1 to 100" type="number" name="num" id="num">
+        <button onclick={clickHandler()} type="submit">Guess</button>
+        <p class="number-guesses">
+            <span>Number of guesses : <span class="dynamic-number">0</span>
+        </p>
+        <p id="number-game-result">Try to guess the number</p>
+       </div>
+   </div>
+</body>
+
+<!-- script -->
+<script src="script.js"></script>
+
+</html>
+
+
+

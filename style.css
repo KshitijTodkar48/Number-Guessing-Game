@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url("components/background_Img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card{
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(39, 19, 64);
+    backdrop-filter: blur(10px);
+    align-self: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card > h1{
+    color: white;
+    font-size: 35px;
+    font-family: Train One;
+}
+
+.card > button{
+    margin-top: 30px;
+    width: 120px;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(88, 55, 159);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: Phudu;
+    cursor: pointer;
+}
+
+.card > button:hover{
+    background-color: rgb(114, 52, 141);
+}
+
+.number-guesses{
+    color: white;
+    margin-top: 40px;
+    font-family: Phudu;
+    font-size: 20px;
+}
+#number-game-result{
+    color: white;
+    font-size: 20px;
+    font-family: Phudu;
+    margin-bottom: 50px;
+}
+
+#num{
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    height: 7%;
+    align-self: center;
+}
